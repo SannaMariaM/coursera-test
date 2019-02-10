@@ -1,1 +1,68 @@
-add css here
+* {
+margin: 0;
+padding: 0;
+}
+body {
+	font-family: 'Nanum Gothic', sans-serif;;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #eff5f5;
+	border-radius: 0;
+	padding: 5px;
+}
+.navbar-header {
+	padding-top: 5px;
+	padding-bottom: 15px;
+	vertical-align: middle;
+	height: 100px;
+}
+.navbar-brand h1 { /* Company name */
+	color: #283e3e;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.navbar-brand a:hover, .navbar.branda:focus {
+	text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #283e3e;
+	background-color: #F5F5F5;
+}
+.navbar-header button.navbar-toggle {
+	clear:both;
+	margin-top: -15px;
+}
+#nav-list {
+	margin-top:20px;
+}
+#nav-list a {
+	color: #283e3e;
+}
+#nav-list a:hover {
+	background-color: #b8cce0;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#nav-list a span {
+	font-size: 2em;
+}
+/** MAIN CONTENT **/
+#main-content-title {
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 20px;
+	color: #283e3e;
+}
+#main-content-subtitle-1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#main-content-text {
+	background-color: #f1e8f6;
+	height: 1000px;
+	padding: 25px;
+	margin: 5px;
+	border-radius: 0px;
+}
